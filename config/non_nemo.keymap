@@ -54,10 +54,6 @@ ZMK_HOLD_TAP(ltwr,
 
 ZMK_CONDITIONAL_LAYER(ble, NAV MEDIA, BLE)
 
-nice_view_spi: &spi0 {
-    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
-};
-
 &spi0 {
     keymap {
         compatible = "zmk,keymap";
