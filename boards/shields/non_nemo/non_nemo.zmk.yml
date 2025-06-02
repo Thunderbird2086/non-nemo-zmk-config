@@ -1,0 +1,12 @@
+file_format: "1"
+id: non_nemo
+name: "Non Nemo"
+type: shield
+url: https://github.com/Thunderbird2086/VOID
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - studio
+siblings:
+  - void_left
+  - void_right

@@ -1,0 +1,17 @@
+if SHIELD_NON_NEMO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "NON NEMO"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif   # SHIELD_NON_NEMO_LEFT
+
+
+if SHIELD_NON_NEMO
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_NON_NEMO
