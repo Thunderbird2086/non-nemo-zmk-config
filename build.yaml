@@ -21,7 +21,6 @@
 include:
   - board: seeeduino_xiao_ble
     shield: non_nemo_dongle prospector_adapter
-    snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
     shield: non_nemo_left 
   - board: seeeduino_xiao_ble
