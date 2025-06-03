@@ -1,0 +1,11 @@
+file_format: "1"
+id: non_nemo
+name: "Non Nemo"
+type: shield
+url: https://github.com/Thunderbird2086/non-nemo
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - non_nemo_left
+  - non_nemo_right
