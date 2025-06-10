@@ -6,6 +6,7 @@
         zmk,matrix_transform = &default_transform;
     };
 
+    // it will be defined in left and right overlay
 //    kscan0: kscan {
 //        compatible = "zmk,kscan-gpio-matrix";
 //        label = "KSCAN";
