@@ -1,11 +1,17 @@
 # Copyright (c) 2023 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_NON_NEMO_DONGLE
-    def_bool $(shields_list_contains,non_nemo_dongle)
+config SHIELD_NON_NEMO
+    bool
 
 config SHIELD_NON_NEMO_LEFT
     def_bool $(shields_list_contains,non_nemo_left)
+    select SHIELD_NON_NEMO
 
 config SHIELD_NON_NEMO_RIGHT
     def_bool $(shields_list_contains,non_nemo_right)
+    select SHIELD_NON_NEMO
+
+config SHIELD_NON_NEMO_DONGLE
+    def_bool $(shields_list_contains,non_nemo_dongle)
+    select SHIELD_NON_NEMO
