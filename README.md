@@ -30,4 +30,4 @@ The option(⌥), shift(⇧), control(⌃) and command(⌘) keys are assigned to 
   ![media](https://imgur.com/2rCen1l.png)
 
 - BLE: BLE keys<br>
-  ![adjust](https://imgur.com/mpweGNt.png)
+  ![adjust](https://imgur.com/vEmZpg2.png)
