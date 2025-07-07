@@ -23,10 +23,9 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
-    - name: prospector-zmk-module
-      remote: carrefinho
-      revision: main
-      path: modules/prospector-zmk-module
+    # - name: prospector-zmk-module
+    #   remote: carrefinho
+    #      revision: main
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
