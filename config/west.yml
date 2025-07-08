@@ -9,6 +9,8 @@ manifest:
     # Prospector
     - name: carrefinho
       url-base: https://github.com/carrefinho
+    - name: tb2086
+      url-base: https://github.com/Thunderbird2086
     # Dongle Screen
     - name: janpfischer
       url-base: https://github.com/janpfischer
@@ -24,8 +26,8 @@ manifest:
       remote: urob
       revision: main
     - name: prospector-zmk-module
-      remote: carrefinho
-      revision: main
+      remote: tb2086
+      revision: dev
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
