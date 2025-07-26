@@ -22,7 +22,9 @@ include:
   - board: seeeduino_xiao_ble
     shield: non_nemo_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
-    # shield: non_nemo_dongle dongle_screen
+  - board: seeeduino_xiao_ble
+    snippet: studio-rpc-usb-uart
+    shield: non_nemo_dongle dongle_screen
   - board: seeeduino_xiao_ble
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_DONGLE_SCREEN_AMBIENT_LIGHT=y
