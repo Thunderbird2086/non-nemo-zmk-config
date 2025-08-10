@@ -9,14 +9,15 @@ manifest:
     # Prospector
     - name: carrefinho
       url-base: https://github.com/carrefinho
-    - name: tb2086
-      url-base: https://github.com/Thunderbird2086
     # Dongle Screen
     - name: janpfischer
       url-base: https://github.com/janpfischer
     # TB2086
     - name: tb2086
       url-base: https://github.com/Thunderbird2086
+    # Docker
+    - name: local
+      url-base: /workdir
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,12 +26,14 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
+      path: modules/zmk-helpers
     - name: prospector-zmk-module
       remote: tb2086
-      revision: dev
-    - name: zmk-dongle-screen
-      remote: janpfischer
       revision: main
+      path: modules/prospector-zmk-module
+    - name: zmk-dongle-screen
+      remote: tb2086
+      revision: dev
       path: modules/zmk-dongle-screen
   self:
     path: config
