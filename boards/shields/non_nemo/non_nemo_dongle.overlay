@@ -3,6 +3,8 @@
 / {
    chosen {
       zmk,kscan = &mock_kscan;
+      zmk,ble = &ble;
+      zmk,usb = &usb_hid;
    };
 
    mock_kscan: kscan_1 {
@@ -10,5 +12,13 @@
       columns = <0>;
       rows = <0>;
       events = <0>;
+   };
+
+   ble: ble {
+      compatible = "zmk,ble";
+   };
+
+   usb_hid: usb_hid {
+      compatible = "zmk,usb-hid";
    };
 };
