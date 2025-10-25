@@ -12,6 +12,9 @@ manifest:
     # Dongle Screen
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    # Cornex Dongle
+    - name: bwshockley
+      url-base: https://github.com/bwshockley
     # TB2086
     - name: tb2086
       url-base: https://github.com/Thunderbird2086
@@ -33,7 +36,7 @@ manifest:
       path: modules/prospector-zmk-module
     - name: zmk-dongle-screen
       remote: tb2086
-      revision: dev
+      revision: bwshockley
       path: modules/zmk-dongle-screen
   self:
     path: config
