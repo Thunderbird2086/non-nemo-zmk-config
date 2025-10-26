@@ -36,7 +36,8 @@ manifest:
       path: modules/prospector-zmk-module
     - name: zmk-dongle-screen
       remote: tb2086
-      revision: bwshockley
+#      revision: bwshockley
+      revision: tb2086
       path: modules/zmk-dongle-screen
   self:
     path: config
