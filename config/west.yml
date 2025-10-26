@@ -38,6 +38,7 @@ manifest:
       remote: tb2086
 #      revision: bwshockley
       revision: tb2086
+#      revision: main
       path: modules/zmk-dongle-screen
   self:
     path: config

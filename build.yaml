@@ -23,15 +23,15 @@ include:
     shield: non_nemo_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_DONGLE_SCREEN_AMBIENT_LIGHT=y
     shield: non_nemo_dongle dongle_screen
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_DONGLE_SCREEN_AMBIENT_LIGHT=y -DCONFIG_DONGLE_SCREEN_SYSTEM_ICON=0
   - board: seeeduino_xiao_ble
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     shield: non_nemo_left 
-  - board: seeeduino_xiao_ble
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: seeeduino_xiao_ble
     shield: non_nemo_right 
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: non-nemo-settings-reset
