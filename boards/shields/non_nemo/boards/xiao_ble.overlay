@@ -1,0 +1,15 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Per-board overlay for the non_nemo shield on an xiao_ble base.
+ *
+ * The `&xiao_serial` node only exists on xiao-based boards, so it lives here
+ * (applied automatically by the ZMK shield per-board overlay mechanism) rather
+ * than in the shared non_nemo.dtsi. On non-xiao bases (e.g. the holyiot yj17120
+ * dongle) this overlay is simply not picked up, so the shared dtsi stays
+ * board-agnostic.
+ */
+
+&xiao_serial {
+    status = "disabled";
+};

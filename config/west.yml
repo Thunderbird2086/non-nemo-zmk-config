@@ -35,5 +35,9 @@ manifest:
       remote: tb2086
       revision: dev
       path: modules/zmk-dongle-screen
+    - name: zmk-holyiot-boards
+      remote: tb2086
+      revision: main
+      path: modules/zmk-holyiot-board
   self:
     path: config
