@@ -31,7 +31,7 @@ manifest:
       revision: feat/new-status-screens
     - name: zmk-dongle-screen
       remote: tb2086
-      revision: dev
+      revision: tb2086
     - name: zmk-holyiot-boards
       remote: tb2086
       revision: main
