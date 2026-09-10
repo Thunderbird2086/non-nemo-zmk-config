@@ -26,18 +26,14 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
-      path: modules/zmk-helpers
     - name: prospector-zmk-module
-      remote: tb2086
-      revision: main
-      path: modules/prospector-zmk-module
+      remote: carrefinho
+      revision: feat/new-status-screens
     - name: zmk-dongle-screen
       remote: tb2086
       revision: dev
-      path: modules/zmk-dongle-screen
     - name: zmk-holyiot-boards
       remote: tb2086
       revision: main
-      path: modules/zmk-holyiot-board
   self:
     path: config
