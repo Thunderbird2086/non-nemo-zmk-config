@@ -21,6 +21,7 @@
 include:
   - board: xiao_ble//zmk
     shield: non_nemo_dongle prospector_adapter
+    cmake-args: -DCONFIG_PROSPECTOR_STATUS_SCREEN_OPERATOR=y
     snippet: studio-rpc-usb-uart
     artifact-name: non-nemo-dongle-prospector
   - board: xiao_ble//zmk

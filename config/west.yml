@@ -30,8 +30,10 @@ manifest:
       remote: carrefinho
       revision: feat/new-status-screens
     - name: zmk-dongle-screen
-      remote: tb2086
-      revision: tb2086
+      remote: janpfischer
+      revision: upgrade-4.1
+      # remote: tb2086
+      # revision: tb2086
     - name: zmk-holyiot-boards
       remote: tb2086
       revision: main
