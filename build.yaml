@@ -31,7 +31,7 @@ include:
     artifact-name: non-nemo-dongle-dongle-screen
   - board: xiao_ble//zmk
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_DONGLE_SCREEN_AMBIENT_LIGHT=y -DCONFIG_DONGLE_SCREEN_IDLE_TIMEOUT_S=300 -DCONFIG_ZMK_DONGLE_DISPLAY_DONGLE_BATTERY=y
+    cmake-args: -DCONFIG_DONGLE_SCREEN_AMBIENT_LIGHT=y -DCONFIG_DONGLE_SCREEN_IDLE_TIMEOUT_S=300 -DCONFIG_ZMK_DONGLE_DISPLAY_DONGLE_BATTERY=y -DCONFIG_DONGLE_SCREEN_OUTPUT_ACTIVE=y
     shield: non_nemo_dongle dongle_screen
     artifact-name: non-nemo-dongle-dongle-screen-sensor
   - board: xiao_ble//zmk
